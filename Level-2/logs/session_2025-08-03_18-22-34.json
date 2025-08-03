@@ -1,0 +1,36 @@
+[
+  {
+    "timestamp": "2025-08-03 18:22:48",
+    "user_input": "\"What is 12 times 7?\"",
+    "bot_response": "The result is: 84",
+    "tools_used": [
+      "calculator"
+    ],
+    "event": "tool:calculator"
+  },
+  {
+    "timestamp": "2025-08-03 18:22:55",
+    "user_input": "\"Add 45 and 30\"",
+    "bot_response": "The result is: 75",
+    "tools_used": [
+      "calculator"
+    ],
+    "event": "tool:calculator"
+  },
+  {
+    "timestamp": "2025-08-03 18:23:02",
+    "user_input": "\"What is the capital of France?\"",
+    "bot_response": "The capital of France is Paris.",
+    "tools_used": [
+      "LLM (Gemini)"
+    ],
+    "event": "query_answered"
+  },
+  {
+    "timestamp": "2025-08-03 18:23:19",
+    "user_input": "\"Multiply 9 and 8, and also tell me the capital of Japan.\"",
+    "bot_response": "I'm currently unable to handle multiple questions at once. Please ask one at a time.",
+    "tools_used": [],
+    "event": "multi_intent_detected"
+  }
+]
